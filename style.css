@@ -1,12 +1,12 @@
 #container{
     display: grid;
-    grid-template-rows:10% 50% 10% 30%;
+    grid-template-rows:10% 45% 10% 30%;
     /* grid-gap: 15px; */
     
 }
 #contabout{
     display: grid;
-    grid-template-rows: 15% 15% 80%;
+    grid-template-rows: 15% 15% 75%;
 }
 
 
