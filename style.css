@@ -1,8 +1,12 @@
 #container{
     display: grid;
-    grid-template-rows:10% 53% 10% 30% 20%;
+    grid-template-rows:10% 53% 10% 30%;
     /* grid-gap: 15px; */
     
+}
+#contabout{
+    display: grid;
+    grid-template-rows: 15% 15% 84%;
 }
 .satir{
     border: 3px  solid ;
@@ -135,6 +139,11 @@ button{
    
     
 }
+#email{
+    width:15rem ;
+    height: 1.5rem;
+    border-radius: 5px;
+}
 
 nav a{
     margin-right: 35px;
@@ -162,6 +171,13 @@ a:hover{
 p{
     color:white;
 }
+
+.lorem,.parag{
+    background-color:#677383 ;
+    margin: 25px;
+    border: 1px solid;
+}
+
 
 
 .action{
@@ -194,3 +210,13 @@ span.logo{
     justify-items: center; 
 
 }
+
+.str3{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 45% 25%;
+    column-gap: 20px;
+
+}
+
+
